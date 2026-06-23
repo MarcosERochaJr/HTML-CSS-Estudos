@@ -1,3 +1,21 @@
 # HTML-CSS-Estudos
-Meus arquivos de estudo em HTML5 e CSS3
-Isso é um diretório criado para basicamente treinar como usar o Git com os meus estudos em HTML5 e CSS3
+
+Repositório criado para armazenar os exercícios realizados durante meus estudos de HTML e CSS e também começar a aprender a usar o Git.
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- Git
+- GitHub
+
+## Exercícios
+
+- Ex001 - Estrutura básica HTML
+- Ex002 - Parágrafos e títulos
+- Ex003 - Imagens
+
+## Objetivo
+
+Registrar minha evolução nos estudos de desenvolvimento front-end.
+
