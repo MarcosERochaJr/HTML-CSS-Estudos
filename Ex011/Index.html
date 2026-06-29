@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/ImgPeq.jpeg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="Imagens/ImgMed.jpeg" type="image/jpeg">
+        <img src="Imagens/ImgGra.jpeg" alt="Imagem Flexível">
+    </picture>
+    <h1>Áudios</h1>
+    <p>Vamos aprender a colocar áudios em HTML5</p>
+    <audio src="midia/Jazz.mp3" controls loop><p></p></audio>
+    <h1>Vídeos</h1>
+    <p>Vamos aprender a colocar vídeos em HTML5</p>
+    <video src="midia/15857780_2160_4096_120fps.mp4"></video>
+</body>
+</html>
