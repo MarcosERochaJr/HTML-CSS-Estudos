@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    text-align: justify;
+}
+
+p {
+    font-size: 2em;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#div1{
+    background-image: linear-gradient(to right, rgb(67, 39, 192), rgb(245, 185, 74), rgb(255, 252, 159), white);
+}
+
+#div2{
+    background-image: linear-gradient(to left, rgb(67, 39, 192), rgb(245, 185, 74), rgb(255, 252, 159), white);
+}
+
+#div3{
+    background-image: linear-gradient(to bottom, rgb(67, 39, 192), rgb(245, 185, 74), rgb(255, 252, 159), white);
+}
+
+#div4{
+    background-image: linear-gradient(to top, rgb(67, 39, 192), rgb(245, 185, 74), rgb(255, 252, 159), white);
+}
+
