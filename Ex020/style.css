@@ -1,0 +1,103 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+div.um {
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+body > h1 {
+    font-size: 3em;
+}
+
+div > p {
+    width: 150px;
+    margin: auto;
+}
+
+.verde:hover {
+    background-color: green;
+}
+
+.amarelo:hover {
+    background-color: yellow;
+}
+
+.vermelho:hover {
+    background-color: red;
+}
+
+.escondido > img {
+    display: none;
+}
+
+.mouse:active + img {
+    display: block;
+}
+
+.mouse:hover {
+    color: transparent;
+    position: relative;
+}
+
+.mouse:hover::after {
+    content: "AGORA CLIQUE";
+    color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.mouse {
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 200px;
+    padding: 5px;
+
+}
+
+img {
+    margin: auto;
+}
+
+a:visited {
+    color: darkred;
+}
+
+.especial::after {
+    content: "⬅️";
+}
+
+.especial::before{
+    content: "➡️";
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: black;
+}
+
+.especial{
+    background-color: rgba(212, 130, 130, 0.622);
+}
+
+li{
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
