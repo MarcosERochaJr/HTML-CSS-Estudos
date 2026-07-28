@@ -28,8 +28,9 @@ Repositório criado para armazenar os exercícios realizados durante meus estudo
 - Ex017 - Fontes pt.1
 - Ex018 - Fontes pt.2
 - Ex019 - Seletores
-- Ex020 - Pseudo Classes/Elementos
-- Ex021 - Boxes e Grouping Tags
+- Ex020 - Pseudo classes/elementos
+- Ex021 - Boxes e grouping tags
+- Ex022 - Imagens de background
 
 ## Objetivo
 
