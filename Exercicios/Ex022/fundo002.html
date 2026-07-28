@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=d6vice-width, 6nitial-scale=1.0">
+    <title>Personalização dos fundos</title>
+    <style>
+        div{
+            border: 2px solid black;
+            background-image: url(imagens/colorful-stingrays.png);
+            width: 600px;
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.505);
+        }
+
+        div.um{
+            background-size: 100px 300px;
+            background-repeat: repeat-x;
+        }
+
+        div.dois{
+            background-size: 100px 300px;
+            background-repeat: repeat-y;
+        }
+
+        div.tres{
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="um"></div>
+    <div class="dois"></div>
+    <div class="tres"></div>
+</body>
+</html>
