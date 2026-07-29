@@ -1,6 +1,6 @@
 # HTML-CSS-Estudos
 
-Repositório criado para armazenar os exercícios realizados durante meus estudos de HTML e CSS e também começar a aprender a usar o Git.
+Repositório criado para armazenar os exercícios e desafios realizados durante meus estudos de HTML e CSS pelo [Curso em Vídeo](https://www.cursoemvideo.com) e também começar a aprender a usar o Git.
 
 ## Tecnologias
 
