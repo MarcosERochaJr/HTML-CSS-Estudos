@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas mescladas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            text-align: center;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: rgb(47, 47, 47);
+            color: white;
+            position: sticky;
+            top: -1px;
+        }
+
+        td.num {
+            text-align: right;
+        }
+        
+        tfoot {
+            background-color: darkgray;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(218, 218, 218);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+        </tr>
+        <tr>
+            <td colspan="2">J</td>
+        </tr>
+    </table>
+</body>
+</html>
